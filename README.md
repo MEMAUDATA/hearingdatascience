@@ -1,5 +1,5 @@
 First web page for Hearing Data Science before mooving to something more complicated.
 
-url : https://hearingdatascience.github.io/
+url : https://hearingdatascience.com/
 
-NV, Toulouse,8/10/2025
+NV, Toulouse,9/10/2025
