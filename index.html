@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HearingDataScience</title>
-    <link rel="icon"  href="static/HDS.png">
-    <link href="https://api.fontshare.com/v2/css?f[]=instrument-sans@400&display=swap" rel="stylesheet">
+    <title>Hearing Data Science</title>
+    <link rel="icon"  href="static/hds-logo-bleu.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Instrument+Sans:ital,wght@0400&display=swap" rel="stylesheet">
   </head>
   <style>
     /*container
@@ -23,10 +25,10 @@
 
     /*Body*/
     body {font-family:'Instrument Sans', sans-serif;display: flex; flex-direction: column; min-height: 100vh; margin: 0; }
-    h2 {margin-bottom: 50px;text-align: center;margin-top:30px}
+    h2 {font-family:'Bricolage+Grotesque';margin-bottom: 50px;text-align:left;margin-top:30px;}
     p {margin-bottom: 3px;font-weight: lighter;} /*font-style: italic;*/
     a {color: rgb(7, 7, 7);font-weight: bold;}
-    a:hover {color: rgb(47, 12, 245);}
+    /*a:hover {color: rgb(47, 12, 245);}*/
 
     /*Intro*/
     .intro_container {height: auto;min-height: 100svh; display: flex;justify-content: center;align-items: center;
@@ -38,8 +40,8 @@
     /*projects*/
     .container {display: grid;grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) ;justify-content: center;align-items: center;grid-gap:20px;
       margin: 0 auto;padding:20px;margin-top:20px;box-sizing: border-box;} 
-    .text-container {flex: 1;padding: 10px;text-align:center;}
-    .image-container {display: flex;justify-content: center;text-align:center;padding: 10px}
+    .text-container {flex: 1;padding: 10px;text-align:left;}
+    .image-container {display: flex;justify-content: left;text-align:left;padding: 10px}
 
     .box {border: 1px #0c0c0c; background-color: #478aa4; padding: 20px; border-radius: 5px; min-height: 250px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)} /*#d5d1d1 form grey  #1792c3 blue #428ba8*/
@@ -143,15 +145,19 @@
        <!-- Img de Nico -->
       <div class="intro_image-container">
        <!-- <img src="static/nicogwada.jpeg" alt="Nico" width="230" height="230" style="border-radius: 40px;"> -->
-        <img src="static/HDS.svg" alt="Nico" width="600" height="200" style="border-radius: 50px;">
+        <img src="static/hearing-data-science-logo.png" alt="HDS logo" width="800" height="200" style="border-radius: 50px;">
       </div>
 
 
       <div class="intro_text-container">
-        <p style="line-height: 1.5;" > Une meilleure façon d'optimiser sa pratique audiologique<br> par l'analyse de la base NOAH grâce à la data science!<br> <br>
-Contact @ vannson.nicolas@gmail.com </p> 
+        <p style="line-height: 1.5;" > Une meilleure façon d'optimiser sa pratique audiologique<br> par l'analyse de la base NOAH grâce à la data science et l'IA!<br> 
+        <br>
+Contact pour une démo: vannson.nicolas@gmail.com 
+        <br>
+        <br>
+        Nous sommes désolés, ce site est en cours de création</p> 
      </div>
-      
+    </section>
       
       <!--<p> I'm a former audiologist and currently a data science and teaching enthusiast.</p>
       <p>I have over a decade of expertise in data analysis and statistics.</p>
@@ -166,30 +172,46 @@ Contact @ vannson.nicolas@gmail.com </p>
       <a href="https://www.linkedin.com/in/nicolas-vannson-phd/" target="_blank">
         <img src="static/linkedin-logo-dark-blue.png" alt="LinkedIn" width="30" height="30">
       </a>
-    </section>
+   
     -->
 
-    <!-- Add chapter below which are CV sections
+    <!-- Add chapter below which are CV sections 
     <section id="DS_projects" class="section_container">
-      <h2><span style="color:red">Data science projects <span style="color:rgb(0, 0, 0)"> and not </span> </h2>
-      <h2> Data science projects </span> </h2>
+
       <div class="container">
-      -->
-        <!-- HEARING DATA
+    
         <div class="box">
           <div class="image-container">
             <img src="static/DS.png" width="100" height="100" alt = 'DS'>
           </div>
           <div class="text-container">
-            <h3>Hearing data </h3>
+            <h2>Optimiser votre relance patient </h2>
             <p> Web app for online hearing clinic database analysis and predictions.</p> 
-            <p> Tools used:</p> 
-            <p>Flask/Streamlit/Pandas/Numpy/Scikit-learn/Prophet/Git</p>
-            <p><a href="https://hearingdata.streamlit.app/" target="_blank">See project</a></p> 
+          </div>
+        </div> 
+        <div class="box">
+          <div class="image-container">
+            <img src="static/DS.png" width="100" height="100" alt = 'DS'>
+          </div>
+          <div class="text-container">
+            <h2>Comprendre votre patientèle </h2>
+            <p> Web app for online hearing clinic database analysis and predictions.</p> 
+          </div>
+        </div> 
+        <div class="box">
+          <div class="image-container">
+            <img src="static/DS.png" width="100" height="100" alt = 'DS'>
+          </div>
+          <div class="text-container">
+            <h2>Localiser vos opportunits </h2>
+            <p> Web app for online hearing clinic database analysis and predictions.</p> 
           </div>
         </div> 
 
-            -->
+       
+
+      </div> 
+    -->
 
 
          <!-- Garbage 
